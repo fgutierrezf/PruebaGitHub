@@ -13,5 +13,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Versión 1"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Version 2"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
 </RelativeLayout>
